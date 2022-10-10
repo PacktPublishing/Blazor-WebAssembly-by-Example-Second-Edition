@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CEakHm6Ak0JSieftbgxMHw7iIQXhiNdw3VRv0PWB9AehUlHawkh9DE9fgGfvsgvfsYxek0U8v5m+FdNFEDE3EQ==",
+  "dgSpecHash": "4dCEgC2UoTxYhd7wX6mXTXdgaQMh4nbGQHrvPAxJcKJ4WFxzyeTEG2ikQ0zPRr76I7bgGnbXOEupLHGHUBZiwg==",
   "success": true,
-  "projectFilePath": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\WeatherForecast.csproj",
+  "projectFilePath": "C:\\Users\\toi\\source\\repos\\Blazor-WebAssembly-by-Example-Second-Edition\\Chapter06\\WeatherForecast\\WeatherForecast\\WeatherForecast.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\toi\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.0-rc.1.22427.2\\microsoft.aspnetcore.authorization.7.0.0-rc.1.22427.2.nupkg.sha512",
     "C:\\Users\\toi\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.0-rc.1.22427.2\\microsoft.aspnetcore.components.7.0.0-rc.1.22427.2.nupkg.sha512",
