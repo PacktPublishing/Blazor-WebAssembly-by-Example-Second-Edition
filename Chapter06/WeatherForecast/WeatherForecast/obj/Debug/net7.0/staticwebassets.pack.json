@@ -1,0 +1,189 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\obj\\Debug\\net7.0\\build-gz\\TnpEG8+l.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\css\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\images\\Sun-512.png",
+      "PackagePath": "staticwebassets\\images\\Sun-512.png"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\offline.html",
+      "PackagePath": "staticwebassets\\offline.html"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\scripts\\bweInterop.js",
+      "PackagePath": "staticwebassets\\scripts\\bweInterop.js"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-06\\code\\WeatherForecast\\WeatherForecast\\wwwroot\\service-worker.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.WeatherForecast.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.WeatherForecast.props",
+      "PackagePath": "build\\WeatherForecast.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.WeatherForecast.props",
+      "PackagePath": "buildMultiTargeting\\WeatherForecast.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.WeatherForecast.props",
+      "PackagePath": "buildTransitive\\WeatherForecast.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
