@@ -1,0 +1,26 @@
+﻿@page "/"
+
+@inject NavigationManager navigation
+
+<PageTitle>Home</PageTitle>
+
+<div class="bg-light">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item active">Home</li>
+    </ol>
+</div>
+
+<h1 class="display-3">Welcome to Blazing Tasks!</h1>
+<h2>
+    The store is open for business.
+</h2>
+<button type="button" class="btn btn-danger mt-2" @onclick="OpenStore">
+    Start Shopping
+</button>
+
+@code {
+    protected void OpenStore()
+    {
+        navigation.NavigateTo("store");
+    }
+}
