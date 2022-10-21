@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-03\\code\\GuessTheNumber\\GuessTheNumber\\bin\\Release\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-03\\code\\GuessTheNumber\\GuessTheNumber\\obj\\Release\\net7.0\\build-gz\\MCBfRQDH.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-03\\code\\GuessTheNumber\\GuessTheNumber\\obj\\Release\\net7.0\\scopedcss\\bundle\\GuessTheNumber.styles.css",
+      "PackagePath": "staticwebassets\\GuessTheNumber.styles.css"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-03\\code\\GuessTheNumber\\GuessTheNumber\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-03\\code\\GuessTheNumber\\GuessTheNumber\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.GuessTheNumber.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.GuessTheNumber.props",
+      "PackagePath": "build\\GuessTheNumber.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.GuessTheNumber.props",
+      "PackagePath": "buildMultiTargeting\\GuessTheNumber.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.GuessTheNumber.props",
+      "PackagePath": "buildTransitive\\GuessTheNumber.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

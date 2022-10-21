@@ -1,0 +1,17 @@
+.game[b-qky896jbe2] {
+    padding: 15px;
+    font-size: 4rem;
+}
+
+input[b-qky896jbe2], button[b-qky896jbe2], .guesses[b-qky896jbe2] {
+    font-size: 4rem;
+    font-family: Courier New, Courier, monospace
+}
+
+.match-pos[b-qky896jbe2] {
+    color: green;
+}
+
+.match-val[b-qky896jbe2] {
+    color: red
+}

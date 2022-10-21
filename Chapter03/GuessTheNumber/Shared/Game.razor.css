@@ -1,0 +1,17 @@
+﻿.game {
+    padding: 15px;
+    font-size: 4rem;
+}
+
+input, button, .guesses {
+    font-size: 4rem;
+    font-family: Courier New, Courier, monospace
+}
+
+.match-pos {
+    color: green;
+}
+
+.match-val {
+    color: red
+}

@@ -1,0 +1,5 @@
+-O2
+-s EXPORT_ES6=1
+-v
+-s DISABLE_EXCEPTION_CATCHING=0
+-Wl,--allow-undefined

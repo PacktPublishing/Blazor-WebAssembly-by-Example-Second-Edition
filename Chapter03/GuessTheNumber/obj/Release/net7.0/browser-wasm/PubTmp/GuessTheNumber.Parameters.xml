@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="GuessTheNumberGame" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\VS2022\\blazor-projects-2\\Chapters\\chapter-03\\code\\GuessTheNumber\\GuessTheNumber\\obj\\Release\\net7\.0\\browser-wasm\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
