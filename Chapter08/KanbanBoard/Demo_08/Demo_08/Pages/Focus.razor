@@ -1,0 +1,24 @@
+﻿@page "/focus"     
+
+<input type="text" @ref="taskInput" @bind-value="@taskName" />
+<button type="button" @onclick="OnClickHandlerAsync">
+     Add Task
+ </button>
+
+@foreach (var item in tasks)
+{
+    <div>@item</div>
+}
+
+@code {
+    private string? taskName;
+    private ElementReference taskInput;
+    private List<string> tasks = new();
+
+    private async Task OnClickHandlerAsync()
+    {
+        tasks.Add(taskName!);
+        taskName = "";
+        await taskInput.FocusAsync();
+    }
+}
