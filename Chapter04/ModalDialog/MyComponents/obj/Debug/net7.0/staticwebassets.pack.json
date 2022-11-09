@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Blazor\\ModalDialog\\MyComponents\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MyComponents.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MyComponents.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Blazor\\ModalDialog\\MyComponents\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "E:\\Blazor\\ModalDialog\\MyComponents\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MyComponents.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.MyComponents.props",
+      "PackagePath": "build\\MyComponents.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.MyComponents.props",
+      "PackagePath": "buildMultiTargeting\\MyComponents.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.MyComponents.props",
+      "PackagePath": "buildTransitive\\MyComponents.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

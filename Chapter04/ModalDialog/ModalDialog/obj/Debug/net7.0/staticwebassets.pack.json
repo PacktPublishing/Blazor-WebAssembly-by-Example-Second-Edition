@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Blazor\\ModalDialog\\ModalDialog\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "E:\\Blazor\\ModalDialog\\ModalDialog\\obj\\Debug\\net7.0\\build-gz\\MCBfRQDH.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "E:\\Blazor\\ModalDialog\\ModalDialog\\obj\\Debug\\net7.0\\scopedcss\\bundle\\ModalDialog.styles.css",
+      "PackagePath": "staticwebassets\\ModalDialog.styles.css"
+    },
+    {
+      "Id": "E:\\Blazor\\ModalDialog\\ModalDialog\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "E:\\Blazor\\ModalDialog\\ModalDialog\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ModalDialog.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ModalDialog.props",
+      "PackagePath": "build\\ModalDialog.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ModalDialog.props",
+      "PackagePath": "buildMultiTargeting\\ModalDialog.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ModalDialog.props",
+      "PackagePath": "buildTransitive\\ModalDialog.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

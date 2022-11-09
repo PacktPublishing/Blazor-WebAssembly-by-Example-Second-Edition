@@ -1,0 +1,30 @@
+.dialog-container[b-nutedkz0t4] {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 2000;
+}
+
+.dialog[b-nutedkz0t4] {
+    background-color: white;
+    margin: auto;
+    width: 25rem;
+}
+
+.dialog-title[b-nutedkz0t4] {
+    background-color: #343a40;
+    color: white;
+    padding: .5rem;
+}
+
+.dialog-body[b-nutedkz0t4] {
+    padding: 2rem;
+}
+
+.dialog-buttons[b-nutedkz0t4] {
+    background-color: silver;
+    padding: .5rem;
+}

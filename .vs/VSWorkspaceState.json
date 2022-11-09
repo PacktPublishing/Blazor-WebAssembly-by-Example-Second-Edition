@@ -1,7 +1,6 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Chapter06",
     "\\Chapter06\\WeatherForecast",
     "\\Chapter06\\WeatherForecast\\WeatherForecast",
     "\\Chapter06\\WeatherForecast\\WeatherForecast\\Pages",
@@ -11,5 +10,6 @@
     "\\Chapter11",
     "\\Chapter12"
   ],
+  "SelectedNode": "\\Chapter06",
   "PreviewInSolutionExplorer": false
 }

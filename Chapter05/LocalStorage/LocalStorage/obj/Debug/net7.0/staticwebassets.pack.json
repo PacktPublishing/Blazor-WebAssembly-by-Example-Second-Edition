@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Blazor\\LocalStorage\\LocalStorage\\Pages\\Index.razor.js",
+      "PackagePath": "staticwebassets\\Pages\\Index.razor.js"
+    },
+    {
+      "Id": "E:\\Blazor\\LocalStorage\\LocalStorage\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "E:\\Blazor\\LocalStorage\\LocalStorage\\obj\\Debug\\net7.0\\build-gz\\TnpEG8+l.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "E:\\Blazor\\LocalStorage\\LocalStorage\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "E:\\Blazor\\LocalStorage\\LocalStorage\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "E:\\Blazor\\LocalStorage\\LocalStorage\\wwwroot\\scripts\\bweInterop.js",
+      "PackagePath": "staticwebassets\\scripts\\bweInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.LocalStorage.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.LocalStorage.props",
+      "PackagePath": "build\\LocalStorage.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.LocalStorage.props",
+      "PackagePath": "buildMultiTargeting\\LocalStorage.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.LocalStorage.props",
+      "PackagePath": "buildTransitive\\LocalStorage.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

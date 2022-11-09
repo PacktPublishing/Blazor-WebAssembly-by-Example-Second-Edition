@@ -9,29 +9,29 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = ShoppingCart
 build_property.RootNamespace = ShoppingCart
-build_property.ProjectDir = C:\Users\toi\Source\Repos\Blazor-WebAssembly-by-Example-Second-Edition\Chapter07\WithoutAppState\ShoppingCart\ShoppingCart\
+build_property.ProjectDir = C:\Users\toi\source\repos\Blazor-WebAssembly-by-Example-Second-Edition\Chapter07\WithoutAppState\ShoppingCart\ShoppingCart\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\toi\Source\Repos\Blazor-WebAssembly-by-Example-Second-Edition\Chapter07\WithoutAppState\ShoppingCart\ShoppingCart
+build_property.MSBuildProjectDirectory = C:\Users\toi\source\repos\Blazor-WebAssembly-by-Example-Second-Edition\Chapter07\WithoutAppState\ShoppingCart\ShoppingCart
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/toi/Source/Repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter07/WithoutAppState/ShoppingCart/ShoppingCart/App.razor]
+[C:/Users/toi/source/repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter07/WithoutAppState/ShoppingCart/ShoppingCart/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/toi/Source/Repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter07/WithoutAppState/ShoppingCart/ShoppingCart/MainLayout.razor]
+[C:/Users/toi/source/repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter07/WithoutAppState/ShoppingCart/ShoppingCart/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/toi/Source/Repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter07/WithoutAppState/ShoppingCart/ShoppingCart/Pages/Index.razor]
+[C:/Users/toi/source/repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter07/WithoutAppState/ShoppingCart/ShoppingCart/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/toi/Source/Repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter07/WithoutAppState/ShoppingCart/ShoppingCart/Pages/Store.razor]
+[C:/Users/toi/source/repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter07/WithoutAppState/ShoppingCart/ShoppingCart/Pages/Store.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RvcmUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/toi/Source/Repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter07/WithoutAppState/ShoppingCart/ShoppingCart/_Imports.razor]
+[C:/Users/toi/source/repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter07/WithoutAppState/ShoppingCart/ShoppingCart/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

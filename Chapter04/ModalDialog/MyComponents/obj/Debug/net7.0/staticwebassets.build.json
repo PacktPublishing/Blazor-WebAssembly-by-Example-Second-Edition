@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "BviMTCjkOzFj2u//xEZH1MUEflJ9M4VCeHUNsZUkft4=",
+  "Source": "MyComponents",
+  "BasePath": "_content/MyComponents",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MyComponents\\wwwroot",
+      "Source": "MyComponents",
+      "ContentRoot": "E:\\Blazor\\ModalDialog\\MyComponents\\wwwroot\\",
+      "BasePath": "_content/MyComponents",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\Blazor\\ModalDialog\\MyComponents\\obj\\Debug\\net7.0\\scopedcss\\bundle\\MyComponents.styles.css",
+      "SourceId": "MyComponents",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Blazor\\ModalDialog\\MyComponents\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/MyComponents",
+      "RelativePath": "MyComponents.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\Blazor\\ModalDialog\\MyComponents\\obj\\Debug\\net7.0\\scopedcss\\bundle\\MyComponents.styles.css"
+    },
+    {
+      "Identity": "E:\\Blazor\\ModalDialog\\MyComponents\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MyComponents.bundle.scp.css",
+      "SourceId": "MyComponents",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Blazor\\ModalDialog\\MyComponents\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/MyComponents",
+      "RelativePath": "MyComponents.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\Blazor\\ModalDialog\\MyComponents\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MyComponents.bundle.scp.css"
+    },
+    {
+      "Identity": "E:\\Blazor\\ModalDialog\\MyComponents\\wwwroot\\background.png",
+      "SourceId": "MyComponents",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Blazor\\ModalDialog\\MyComponents\\wwwroot\\",
+      "BasePath": "_content/MyComponents",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "E:\\Blazor\\ModalDialog\\MyComponents\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "MyComponents",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Blazor\\ModalDialog\\MyComponents\\wwwroot\\",
+      "BasePath": "_content/MyComponents",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
+    }
+  ]
+}

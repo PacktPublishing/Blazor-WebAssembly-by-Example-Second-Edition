@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.32804.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModalDialog", "ModalDialog\ModalDialog.csproj", "{946F98AD-D7C6-4E01-BD46-D697526C6C7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyComponents", "MyComponents\MyComponents.csproj", "{2C55FEFF-9001-4CF2-914D-9CE8D5B6B6C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{946F98AD-D7C6-4E01-BD46-D697526C6C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{946F98AD-D7C6-4E01-BD46-D697526C6C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{946F98AD-D7C6-4E01-BD46-D697526C6C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{946F98AD-D7C6-4E01-BD46-D697526C6C7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C55FEFF-9001-4CF2-914D-9CE8D5B6B6C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C55FEFF-9001-4CF2-914D-9CE8D5B6B6C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C55FEFF-9001-4CF2-914D-9CE8D5B6B6C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C55FEFF-9001-4CF2-914D-9CE8D5B6B6C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A63AB99-2389-472E-BFE8-9019E01AAC49}
+	EndGlobalSection
+EndGlobal
