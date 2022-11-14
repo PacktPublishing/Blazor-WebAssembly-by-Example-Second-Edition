@@ -1,0 +1,72 @@
+﻿@page "/cells"
+@using DocumentFormat.OpenXml;
+@using DocumentFormat.OpenXml.Packaging;
+@using DocumentFormat.OpenXml.Spreadsheet;
+@using Microsoft.AspNetCore.Components.Forms;
+
+<PageTitle>Sheets</PageTitle>
+
+<InputFile OnChange="@SelectFile" />
+
+@foreach (var item in myData)
+{
+    <div>@item</div>
+}
+@error
+
+@code {
+    IBrowserFile? file;
+    List<string> myData = new();
+    string? error;
+
+    private async Task SelectFile(InputFileChangeEventArgs e)
+    {
+        try
+        {
+            file = e.File;
+            var stream = new MemoryStream();
+            await file.OpenReadStream().CopyToAsync(stream);
+
+            SpreadsheetDocument doc = SpreadsheetDocument.Open(stream, false);
+            myData = ReadFirstCell(doc);
+        }
+        catch (Exception)
+        {
+            error = "Invalid file";
+        }
+    }
+
+    private List<string> ReadFirstCell(SpreadsheetDocument doc)
+    {
+        List<string> A1Value = new();
+
+        WorkbookPart wbPart = doc.WorkbookPart;
+        var stringTable = wbPart
+            .GetPartsOfType<SharedStringTablePart>()
+            .FirstOrDefault();
+
+        Sheets sheets = wbPart.Workbook.Sheets;
+        foreach (Sheet item in sheets)
+        {
+            WorksheetPart wsPart =
+                (WorksheetPart)(wbPart.GetPartById(item.Id));
+            SheetData sheetData = wsPart
+                .Worksheet.Elements<SheetData>().First();
+            Row row = sheetData.Elements<Row>().First();
+            Cell cell = row.Elements<Cell>().First();
+
+            string value = cell.CellValue.Text;
+            if (cell.DataType != null)
+            {
+                if (cell.DataType.Value == CellValues.SharedString)
+                {
+                    value = stringTable
+                        .SharedStringTable
+                        .ElementAt(int.Parse(value)).InnerText;
+                }
+            }
+            A1Value.Add(value);
+        }
+        return A1Value;
+    }
+}

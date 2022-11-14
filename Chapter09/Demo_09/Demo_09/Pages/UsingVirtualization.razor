@@ -1,0 +1,89 @@
+﻿@page "/virtualization"
+@using System.Collections.ObjectModel;
+@using Microsoft.AspNetCore.Components.Web.Virtualization
+
+<PageTitle>Virtualization</PageTitle>
+
+<h1>Using Virtualization</h1>
+
+<h2>For Each Loop</h2>
+<div style="height:200px;overflow-y:scroll">
+    @foreach (Weather weather in weatherHistory)
+    {
+            <p>
+            @weather.Date.ToShortTimeString():
+                Temp:@weather.Temperature
+                Humidity:@weather.Humidity
+            </p>
+    }
+</div>
+
+<h2>Virtualize Component</h2>
+<div style="height:200px;overflow-y:scroll">
+    <Virtualize Items="@weatherHistory" Context="weather">
+        <p>
+            @weather.Date.ToShortTimeString():
+            Temp:@weather.Temperature
+            Humidity:@weather.Humidity
+        </p>
+    </Virtualize>
+</div>
+
+<h1>Remote Items</h1>
+<div style="height:200px;overflow-y:scroll">
+    <Virtualize ItemsProvider="@LoadWeather" Context="weather" ItemSize="40" OverscanCount="2">
+        <ItemContent>
+            <p>
+                @weather.Date.ToShortTimeString():
+                Temp:@weather.Temperature
+                Humidity:@weather.Humidity
+            </p>
+        </ItemContent>
+        <Placeholder>
+            <p><em>Loading  Weather...</em></p>
+        </Placeholder>
+    </Virtualize>
+</div>
+
+@code{
+    private Collection<Weather> weatherHistory = new();
+
+    protected override void OnInitialized()
+    {
+        weatherHistory.Add(new Weather() { Date = DateTime.Now.AddMinutes(1), Humidity = 100,Temperature = 86 });
+        weatherHistory.Add(new Weather() { Date = DateTime.Now.AddMinutes(2), Humidity = 100, Temperature = 86 });
+        weatherHistory.Add(new Weather() { Date = DateTime.Now.AddMinutes(3), Humidity = 99, Temperature = 86 });
+        weatherHistory.Add(new Weather() { Date = DateTime.Now.AddMinutes(4), Humidity = 99, Temperature = 86 });
+        weatherHistory.Add(new Weather() { Date = DateTime.Now.AddMinutes(5), Humidity = 99, Temperature = 85 });
+        weatherHistory.Add(new Weather() { Date = DateTime.Now.AddMinutes(6), Humidity = 99, Temperature = 85 });
+        weatherHistory.Add(new Weather() { Date = DateTime.Now.AddMinutes(7), Humidity = 80, Temperature = 85 });
+        weatherHistory.Add(new Weather() { Date = DateTime.Now.AddMinutes(8), Humidity = 80, Temperature = 85 });
+        weatherHistory.Add(new Weather() { Date = DateTime.Now.AddMinutes(9), Humidity = 80, Temperature = 86 });
+        weatherHistory.Add(new Weather() { Date = DateTime.Now.AddMinutes(10), Humidity = 80, Temperature = 84 });
+        weatherHistory.Add(new Weather() { Date = DateTime.Now.AddMinutes(11), Humidity = 80, Temperature = 84 });
+        weatherHistory.Add(new Weather() { Date = DateTime.Now.AddMinutes(12), Humidity = 80, Temperature = 84 });
+    }
+
+    private async ValueTask<ItemsProviderResult<Weather>>
+             LoadWeather(ItemsProviderRequest request)
+    {
+        int totalCount = 100;
+        return new ItemsProviderResult<Weather>(
+            await FetchWeather(request.StartIndex, request.Count),
+                               totalCount);
+    }
+
+    private async Task<IEnumerable<Weather>> FetchWeather(int start, int count)
+    {
+        return weatherHistory.Skip(start).Take(count);
+    }
+
+public class Weather
+{
+    public DateTime Date { get; set; }
+
+    public int Temperature { get; set; }
+
+    public int Humidity { get; set; }
+}
+}

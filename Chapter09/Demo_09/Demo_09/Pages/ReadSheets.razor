@@ -1,0 +1,51 @@
+﻿@page "/sheets"
+@using DocumentFormat.OpenXml;
+@using DocumentFormat.OpenXml.Packaging;
+@using DocumentFormat.OpenXml.Spreadsheet;
+@using Microsoft.AspNetCore.Components.Forms;
+
+<PageTitle>Sheets</PageTitle>
+
+<InputFile OnChange="@SelectFile" />
+
+@foreach (var item in mySheets)
+{
+        <div>@item</div>
+}
+@error
+
+@code {
+    IBrowserFile? file;
+    List<string> mySheets = new();
+    string? error;
+
+    private async Task SelectFile(InputFileChangeEventArgs e)
+    {
+        try
+        {
+            file = e.File;
+            var stream = new MemoryStream();
+            await file.OpenReadStream().CopyToAsync(stream);
+
+            SpreadsheetDocument doc = SpreadsheetDocument.Open(stream, false);
+            mySheets = ReadSheetList(doc);
+        }
+        catch (Exception)
+        {
+            error = "Invalid file";
+        }
+    }
+
+    private List<string> ReadSheetList(SpreadsheetDocument doc)
+    {
+        List<string> mySheets = new();
+
+        WorkbookPart wbPart = doc.WorkbookPart;
+        Sheets sheets = wbPart.Workbook.Sheets;
+        foreach (Sheet item in sheets)
+        {
+            mySheets.Add(item.Name);
+        }
+        return mySheets;
+    }
+}

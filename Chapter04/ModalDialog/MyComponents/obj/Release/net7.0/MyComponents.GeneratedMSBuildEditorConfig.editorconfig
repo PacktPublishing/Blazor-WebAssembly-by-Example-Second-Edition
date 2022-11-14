@@ -9,21 +9,21 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = MyComponents
 build_property.RootNamespace = MyComponents
-build_property.ProjectDir = C:\Users\toi\source\repos\Blazor-WebAssembly-by-Example-Second-Edition\Chapter04\ModalDialog\MyComponents\
+build_property.ProjectDir = C:\Users\toi\Source\Repos\Blazor-WebAssembly-by-Example-Second-Edition\Chapter04\ModalDialog\MyComponents\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\toi\source\repos\Blazor-WebAssembly-by-Example-Second-Edition\Chapter04\ModalDialog\MyComponents
+build_property.MSBuildProjectDirectory = C:\Users\toi\Source\Repos\Blazor-WebAssembly-by-Example-Second-Edition\Chapter04\ModalDialog\MyComponents
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/toi/source/repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter04/ModalDialog/MyComponents/_Imports.razor]
+[C:/Users/toi/Source/Repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter04/ModalDialog/MyComponents/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/toi/source/repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter04/ModalDialog/MyComponents/BweDialog.razor]
+[C:/Users/toi/Source/Repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter04/ModalDialog/MyComponents/BweDialog.razor]
 build_metadata.AdditionalFiles.TargetPath = QndlRGlhbG9nLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-nutedkz0t4
 
-[C:/Users/toi/source/repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter04/ModalDialog/MyComponents/Component1.razor]
+[C:/Users/toi/Source/Repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter04/ModalDialog/MyComponents/Component1.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50MS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-zppxfgm6v6

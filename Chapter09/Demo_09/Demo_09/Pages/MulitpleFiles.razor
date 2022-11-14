@@ -1,0 +1,19 @@
+﻿@page "/multiple"
+@using Microsoft.AspNetCore.Components.Forms
+
+<PageTitle>Upload Multiple Files</PageTitle>
+
+<h1>Upload Multiple Files</h1>
+
+<InputFile OnChange="OnChangeHandler" multiple />
+
+@code {
+    private void OnChangeHandler(InputFileChangeEventArgs e)
+    {
+        var files = e.GetMultipleFiles();
+        foreach (var file in files)
+        {
+            // do something
+        }
+    }
+}

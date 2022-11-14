@@ -1,0 +1,37 @@
+﻿@page "/uploadImage"
+
+@using Microsoft.AspNetCore.Components.Forms
+
+<PageTitle>Upload Image</PageTitle>
+
+<h1>Upload Image</h1>
+
+<InputFile OnChange="OnChangeHandler" accept="image/png, image/jpeg" />
+
+@if (@image != null)
+{
+        <p>Old file size: @uploadedFile!.Size.ToString("N0") bytes</p>
+        <p>New file size: @resizedFile!.Size.ToString("N0") bytes</p>
+        <img src="data:@uploadedFile.ContentType;base64,@image" />
+}
+
+@code {
+    IBrowserFile? uploadedFile;
+    IBrowserFile? resizedFile;
+    string? image;
+
+    async Task OnChangeHandler(InputFileChangeEventArgs e)
+    {
+        uploadedFile = e.File;
+        resizedFile = await uploadedFile.RequestImageFileAsync(
+               uploadedFile.ContentType,
+               100,
+               100
+        );
+
+        var buffer = new byte[resizedFile.Size];
+        var stream = await resizedFile.OpenReadStream()
+                                      .ReadAsync(buffer);
+        image = Convert.ToBase64String(buffer);
+    }
+}

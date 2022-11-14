@@ -1,0 +1,23 @@
+﻿@page "/"
+@using Microsoft.AspNetCore.Components.Forms
+
+<PageTitle>Demo 09</PageTitle>
+
+<InputFile OnChange="OnChangeHandler" accept="image/png, image/jpeg" />
+
+@if (selectedFile != null)
+{
+    <p>Name: @selectedFile.Name</p>
+    <p>Size in bytes: @selectedFile.Size</p>
+    <p>Last modified date: @selectedFile.LastModified</p>
+    <p>Content type: @selectedFile.ContentType</p>
+}
+
+@code {
+    IBrowserFile? selectedFile;
+
+    private void OnChangeHandler(InputFileChangeEventArgs e)
+    {
+        selectedFile = e.File;
+    }
+}
