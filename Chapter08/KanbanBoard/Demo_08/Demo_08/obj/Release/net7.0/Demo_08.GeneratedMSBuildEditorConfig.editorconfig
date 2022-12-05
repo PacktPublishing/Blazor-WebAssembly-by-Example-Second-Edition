@@ -9,37 +9,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = Demo_08
 build_property.RootNamespace = Demo_08
-build_property.ProjectDir = C:\Users\toi\Source\Repos\Blazor-WebAssembly-by-Example-Second-Edition\Chapter08\KanbanBoard\Demo_08\Demo_08\
+build_property.ProjectDir = C:\Users\toi\source\repos\Blazor-WebAssembly-by-Example-Second-Edition\Chapter08\KanbanBoard\Demo_08\Demo_08\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\toi\Source\Repos\Blazor-WebAssembly-by-Example-Second-Edition\Chapter08\KanbanBoard\Demo_08\Demo_08
+build_property.MSBuildProjectDirectory = C:\Users\toi\source\repos\Blazor-WebAssembly-by-Example-Second-Edition\Chapter08\KanbanBoard\Demo_08\Demo_08
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/toi/Source/Repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter08/KanbanBoard/Demo_08/Demo_08/App.razor]
+[C:/Users/toi/source/repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter08/KanbanBoard/Demo_08/Demo_08/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/toi/Source/Repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter08/KanbanBoard/Demo_08/Demo_08/MainLayout.razor]
+[C:/Users/toi/source/repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter08/KanbanBoard/Demo_08/Demo_08/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/toi/Source/Repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter08/KanbanBoard/Demo_08/Demo_08/Pages/Focus.razor]
+[C:/Users/toi/source/repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter08/KanbanBoard/Demo_08/Demo_08/Pages/Focus.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9jdXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/toi/Source/Repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter08/KanbanBoard/Demo_08/Demo_08/Pages/Index.razor]
+[C:/Users/toi/source/repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter08/KanbanBoard/Demo_08/Demo_08/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/toi/Source/Repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter08/KanbanBoard/Demo_08/Demo_08/Shared/BweButton.razor]
+[C:/Users/toi/source/repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter08/KanbanBoard/Demo_08/Demo_08/Shared/BweButton.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEJ3ZUJ1dHRvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/toi/Source/Repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter08/KanbanBoard/Demo_08/Demo_08/Shared/BweButton2.razor]
+[C:/Users/toi/source/repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter08/KanbanBoard/Demo_08/Demo_08/Shared/BweButton2.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEJ3ZUJ1dHRvbjIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/toi/Source/Repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter08/KanbanBoard/Demo_08/Demo_08/_Imports.razor]
+[C:/Users/toi/source/repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter08/KanbanBoard/Demo_08/Demo_08/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

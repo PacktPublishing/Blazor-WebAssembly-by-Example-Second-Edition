@@ -9,45 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = Demo_09
 build_property.RootNamespace = Demo_09
-build_property.ProjectDir = C:\Users\toi\Source\Repos\Blazor-WebAssembly-by-Example-Second-Edition\Chapter09\Demo_09\Demo_09\
+build_property.ProjectDir = C:\Users\toi\source\repos\Blazor-WebAssembly-by-Example-Second-Edition\Chapter09\Demo_09\Demo_09\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\toi\Source\Repos\Blazor-WebAssembly-by-Example-Second-Edition\Chapter09\Demo_09\Demo_09
+build_property.MSBuildProjectDirectory = C:\Users\toi\source\repos\Blazor-WebAssembly-by-Example-Second-Edition\Chapter09\Demo_09\Demo_09
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/toi/Source/Repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter09/Demo_09/Demo_09/App.razor]
+[C:/Users/toi/source/repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter09/Demo_09/Demo_09/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/toi/Source/Repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter09/Demo_09/Demo_09/MainLayout.razor]
+[C:/Users/toi/source/repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter09/Demo_09/Demo_09/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/toi/Source/Repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter09/Demo_09/Demo_09/Pages/Index.razor]
+[C:/Users/toi/source/repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter09/Demo_09/Demo_09/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/toi/Source/Repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter09/Demo_09/Demo_09/Pages/MulitpleFiles.razor]
+[C:/Users/toi/source/repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter09/Demo_09/Demo_09/Pages/MulitpleFiles.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXVsaXRwbGVGaWxlcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/toi/Source/Repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter09/Demo_09/Demo_09/Pages/ReadFirstCells.razor]
+[C:/Users/toi/source/repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter09/Demo_09/Demo_09/Pages/ReadFirstCells.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVhZEZpcnN0Q2VsbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/toi/Source/Repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter09/Demo_09/Demo_09/Pages/ReadSheets.razor]
+[C:/Users/toi/source/repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter09/Demo_09/Demo_09/Pages/ReadSheets.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVhZFNoZWV0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/toi/Source/Repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter09/Demo_09/Demo_09/Pages/UploadImage.razor]
+[C:/Users/toi/source/repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter09/Demo_09/Demo_09/Pages/UploadImage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBsb2FkSW1hZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/toi/Source/Repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter09/Demo_09/Demo_09/Pages/UsingVirtualization.razor]
+[C:/Users/toi/source/repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter09/Demo_09/Demo_09/Pages/UsingVirtualization.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNpbmdWaXJ0dWFsaXphdGlvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/toi/Source/Repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter09/Demo_09/Demo_09/_Imports.razor]
+[C:/Users/toi/source/repos/Blazor-WebAssembly-by-Example-Second-Edition/Chapter09/Demo_09/Demo_09/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

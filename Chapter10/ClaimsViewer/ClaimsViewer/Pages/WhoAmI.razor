@@ -1,0 +1,56 @@
+﻿@page "/whoami"
+@using System.Security.Claims;
+
+<h1>Who Am I?</h1>
+
+<AuthorizeView>
+    <NotAuthorized>
+        <div>
+            <b>WARNING: You are not authenticated!</b>
+            You must log in to Claims Viewer.
+        </div>
+    </NotAuthorized>
+    <Authorized>
+        I am @myName
+    </Authorized>
+</AuthorizeView>
+
+<h2>My Claims</h2>
+
+<AuthorizeView Policy="view-all">
+    <NotAuthorized>
+        <div>
+            <b>WARNING: You are not authorized!</b>
+            You must be a member of the ViewAll 
+            group in Azure AD.
+        </div>
+    </NotAuthorized>
+    <Authorized>
+        <ul>
+            @foreach (Claim item in myClaims!)
+            {
+                    <li>@item.Type: @item.Value</li>
+            }
+        </ul>
+    </Authorized>
+</AuthorizeView>
+
+@code {
+    [CascadingParameter]
+    private Task<AuthenticationState>? authStateTask { get; set; }
+
+    private string? myName;
+    private List<Claim>? myClaims;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await authStateTask!;
+        var user = authState.User;
+
+        if (user.Identity!.IsAuthenticated)
+        {
+            myName = user.Identity.Name;
+            myClaims = user.Claims.ToList();
+        };
+    }
+}

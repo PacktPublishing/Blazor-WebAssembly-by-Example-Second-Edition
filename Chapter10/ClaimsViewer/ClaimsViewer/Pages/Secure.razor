@@ -1,0 +1,6 @@
+﻿@page "/secure"
+
+@attribute [Authorize(Policy = "view-all")]
+
+<h2>Secure Page</h2>
+Congratulations, you have been authenticated!

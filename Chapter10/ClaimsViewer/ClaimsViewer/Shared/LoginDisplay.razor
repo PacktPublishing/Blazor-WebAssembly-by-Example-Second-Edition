@@ -1,0 +1,31 @@
+﻿@inject NavigationManager Navigation
+
+<AuthorizeView>
+    <Authorized>
+        <button @onclick="BeginLogout">
+            Log out of Claims Viewer
+        </button>
+        Welcome, @context.User.Identity?.Name!
+    </Authorized>
+    <NotAuthorized>
+        <button @onclick="BeginLogin">
+            Log in to Claims Viewer
+        </button>
+    </NotAuthorized>
+</AuthorizeView>
+
+<hr />
+
+@code {
+    private void BeginLogin(MouseEventArgs args)
+    {
+        Navigation
+            .NavigateToLogin($"authentication/login");
+    }
+
+    private void BeginLogout(MouseEventArgs args)
+    {
+        Navigation
+            .NavigateToLogout($"authentication/logout", $"/");
+    }
+}
