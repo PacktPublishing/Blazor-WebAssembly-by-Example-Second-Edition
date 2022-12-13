@@ -1,11 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Chapter08",
-    "\\Chapter09",
-    "\\Chapter10",
+    "\\Chapter08\\Demo_08",
+    "\\Chapter09\\Demo_09",
+    "\\Chapter10\\ClaimsViewer",
+    "\\Chapter10\\ClaimsViewer\\ClaimsViewer",
+    "\\Chapter10\\ClaimsViewer\\ClaimsViewer\\wwwroot",
     "\\Chapter11",
     "\\Chapter12"
   ],
+  "SelectedNode": "\\Chapter10",
   "PreviewInSolutionExplorer": false
 }

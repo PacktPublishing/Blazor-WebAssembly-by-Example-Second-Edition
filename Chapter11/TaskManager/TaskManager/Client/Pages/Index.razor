@@ -1,0 +1,34 @@
+﻿@page "/"
+
+@if (tasks == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="d-flex col-md-6 mx-auto py-2">
+        <input type="text" class="form-control m-1" placeholder="Enter Task" @bind="newTask" />
+        <button type="button" class="btn btn-success"
+            @onclick="AddTask">
+            Add
+        </button>
+    </div>
+
+    @foreach (var taskItem in tasks)
+    {
+        <div class="d-flex col-md-6 mx-auto border-bottom" @key="taskItem">
+            <div class="p-2 flex-fill">
+                <input type="checkbox" @onchange="@(()=>CheckboxChecked(taskItem))" checked="@taskItem.IsComplete" />
+                <span class="@((taskItem.IsComplete? "completed-task" : ""))">
+                    @taskItem.TaskName
+                </span>
+            </div>
+            <div class="p-1">
+                <button type="button" class="btn btn-outline-danger btn-sm" title="Delete task" @onclick="@(()=>DeleteTask(taskItem))">
+                    <span class="bi bi-trash"></span>
+                </button>
+            </div>
+        </div>
+    }
+}
+
