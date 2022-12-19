@@ -1,0 +1,20 @@
+﻿@inherits LayoutComponentBase
+
+<ul class="nav nav-tabs bg-secondary bg-opacity-10">
+    <li class="nav-item">
+        <NavLink class="nav-link"
+                 href=""
+                 Match="NavLinkMatch.All">
+            Home
+        </NavLink>
+    </li>
+    <li class="nav-item">
+        <NavLink class="nav-link" href="expense">
+            Add Expense
+        </NavLink>
+    </li>
+</ul>
+
+<main class="p-3">
+    @Body
+</main>
