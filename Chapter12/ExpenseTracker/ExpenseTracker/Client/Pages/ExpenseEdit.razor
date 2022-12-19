@@ -8,7 +8,7 @@
 @inject NavigationManager Nav
 @inject IJSRuntime JS
 
-<NavigationLock ConfirmExternalNavigation="true"  OnBeforeInternalNavigation="OnBeforeInternalNav" />
+<NavigationLock ConfirmExternalNavigation="true"  HandleBeforeInternalNavigation="OnBeforeInternalNav" />
 
 @if (id == 0)
 {
@@ -146,7 +146,7 @@ else
         };
     }
 
-    private async Task OnBeforeInternalNav(LocationChangingContext context)
+    private async Task HandleBeforeInternalNav(LocationChangingContext context)
     {
         if (context.IsNavigationIntercepted)
         {
