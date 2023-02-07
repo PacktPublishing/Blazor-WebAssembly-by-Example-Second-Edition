@@ -1,0 +1,29 @@
+﻿@if (DateTime.Now.DayOfWeek.ToString() != "Friday")
+{
+        <p>Today is not Friday.</p>
+}
+else if (DateTime.Now.Day != 13)
+{
+        <p>Today is not the 13th.</p>
+}
+else
+{
+        <p>Today is Friday the 13th.</p>
+}
+
+@switch (value)
+{
+    case 1:
+        <p>The value is 1!</p>
+        break;
+    case 42:
+        <p>Your number is 42!</p>
+        break;
+    default:
+        <p>Your number was not 1 or 42.</p>
+        break;
+}
+
+@code {
+    private int value = 2;
+}

@@ -1,0 +1,57 @@
+﻿@page "/loops"
+@inject HttpClient Http
+
+@if (forecasts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <h3>for loop</h3>
+    @for (var i = 0; i < forecasts.Count(); i++)
+    {
+        <div>@forecasts[i].Summary</div>
+    }
+
+    <h3>foreach loop</h3>
+    @foreach (var forecast in forecasts)
+    {
+        <div>@forecast.Summary</div>
+    }
+
+    <h3>while loop</h3>
+    @while (i < forecasts.Count())
+    {
+        <div>@forecasts[i].Summary</div>
+        i++;
+    }
+
+    <h3>do while loop</h3>
+    @do
+    {
+        <div>@forecasts[j].Summary</div>
+        j++;
+    } while (j < forecasts.Count());
+}
+
+@code {
+    private WeatherForecast[]? forecasts;
+    private int i = 0;
+    private int j = 0;
+
+    protected override async Task OnInitializedAsync()
+    {
+        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+    }
+
+    public class WeatherForecast
+    {
+        public DateOnly Date { get; set; }
+
+        public int TemperatureC { get; set; }
+
+        public string? Summary { get; set; }
+
+        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    }
+}

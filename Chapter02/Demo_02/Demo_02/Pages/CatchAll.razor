@@ -1,0 +1,9 @@
+﻿@page "/error/{*path}"
+@page "/warning/{*path}"
+
+<h1>Catch All</h1>
+Route: @Path
+
+@code {
+    [Parameter] public string? Path { get; set; }
+}
