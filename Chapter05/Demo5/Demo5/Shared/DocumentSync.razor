@@ -1,0 +1,31 @@
+﻿@inject IJSRuntime js
+
+@code {
+    [Parameter] public string Title { get; set; }
+    //protected override void OnAfterRender(bool firstRender)
+    //{
+    //    if (firstRender)
+    //    {
+    //        IJSObjectReference module = ((IJSInProcessRuntime)js).Invoke<IJSObjectReference>("import", "./Shared/DocumentSync.razor.js");
+
+    //        ((IJSInProcessRuntime)js).InvokeVoid(
+    //            "setDocumentTitle",
+    //            Title);
+    //    }
+    //}
+
+    //Dynamically importing a module requires a network request, so it can only be achieved asynchronously by calling InvokeAsync.
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        if (firstRender)
+        {
+           // var module = ((IJSInProcessRuntime)js).Invoke<IJSObjectReference>("import", "./Shared/DocumentSync.razor.js");
+           // ((IJSInProcessRuntime)module).InvokeVoid("setDocumentTitle", Title);
+
+            var jsInProcess = (IJSInProcessRuntime)js;
+            var module = jsInProcess.Invoke<IJSInProcessObjectReference>("import", "./Shared/DocumentSync.razor.js");
+            module.InvokeVoid("setDocumentTitle", Title);
+        }
+    }
+}

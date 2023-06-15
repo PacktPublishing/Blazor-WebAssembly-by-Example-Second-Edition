@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\VS2022\blazor-projects-2\Chapters\chapter-05\code\Demo5\Demo5\bin\Release\net7.0\browser-wasm\publish\</_PublishTargetUrl>
+    <History>True|2022-09-19T01:09:21.8287304Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>
